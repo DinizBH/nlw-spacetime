@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@theme {
+  
+  --color-gray-50: #eaeaea;
+  --color-gray-100: #bebebf;
+  --color-gray-200: #9e9ea0;
+  --color-gray-300: #727275;
+  --color-gray-400: #56565a;
+  --color-gray-500: #2c2c31;
+  --color-gray-600: #28282d;
+  --color-gray-700: #1f1f23;
+  --color-gray-800: #18181b;
+  --color-gray-900: #121215;
+
+  --color-purple-50: #f3eefc;
+  --color-purple-100: #d8cbf7;
+  --color-purple-200: #c6b2f3;
+  --color-purple-300: #ab8eee;
+  --color-purple-400: #9b79ea;
+  --color-purple-500: #8257e5;
+  --color-purple-600: #764fd0;
+  --color-purple-700: #5c3ea3;
+  --color-purple-800: #483073;
+  --color-purple-900: #372560;
+
+  --color-green-50: #e6fbef;
+  --color-green-100: #b1f1ce;
+  --color-green-200: #8cebb6;
+  --color-green-300: #57e295;
+  --color-green-400: #36dc81;
+  --color-green-500: #04d361;
+  --color-green-600: #04c058;
+  --color-green-700: #039645;
+  --color-green-800: #027435;
+  --color-green-900: #025929;
+
+  --blur-full: 194px;
+
+  --bg-stripes: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 12.5%,
+    transparent 12.5%,
+    transparent 100%
+  ), 
+  backgroundSize: 100% 8px;
+
+}
+
+@theme inline {
+  --font-sans: var(--font-roboto);
+  --font-alt: var(--font-bai-jamjuree);
+
+}
