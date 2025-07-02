@@ -1,4 +1,22 @@
 @import "tailwindcss";
+@layer utilities {
+  .bg-stripes {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) ,
+      rgba(255, 255, 255, 0.1) 12.5%,
+      transparent 12.5%,
+      transparent 100%
+    );
+    background-size: 100% 8px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 @theme {
   
   --color-gray-50: #eaeaea;
@@ -35,15 +53,11 @@
   --color-green-900: #025929;
 
   --blur-full: 194px;
+  
+  --text-5xl: 2.5rem;
 
-  --bg-stripes: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.1) 12.5%,
-    transparent 12.5%,
-    transparent 100%
-  ), 
-  backgroundSize: 100% 8px;
+
+
 
 }
 
