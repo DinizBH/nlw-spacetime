@@ -5,6 +5,9 @@
   "plugins": [
     "react"
   ],
+  "rules": {
+    "camelcase": "off"
+  },
   "settings": {
     "react": {
       "createClass": "createReactClass", // Regex for Component Factory to use,
